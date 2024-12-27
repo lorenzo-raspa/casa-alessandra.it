@@ -1,38 +1,31 @@
-header{
+
+
+footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
-}
-
-.title-box{
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-}
-
-navbar{
-    display: flex;
+    min-height: 20vh;
     font-family: "Ysabeau SC", serif;
     font-optical-sizing: auto;
     padding-right: 2rem;
 }
 
-navbar ul{
+footer ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-navbar ul a{
+footer ul a{
     text-decoration: none;
     margin: auto .5rem;
     color: auto;
     transition: .3s;
 }
 
-navbar ul a:hover{
+footer ul a:hover{
     text-decoration: none;
     margin: auto .5rem;
     color: #222;

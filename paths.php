@@ -7,5 +7,6 @@ const CSS = "./css";
 const JAVASCRIPT = "./javascript";
 const IMAGES = "./images";
 const UTILITIES = "./utilities";
+const DATA = "./data";
 
 ?>

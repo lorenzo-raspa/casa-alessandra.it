@@ -1,0 +1,70 @@
+.reviews-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.reviews-section .review{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.reviews-section div:first-child{
+    display: grid;
+    grid-column: span 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews-section .review .review-meta-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.platform-logo{
+    width: 2.5rem;
+}
+
+.reviews-section .review .review-rate-box.airbnb-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF385C;
+    color: #fff;
+    border-radius: 3rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.reviews-section .review .review-rate-box.booking-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003b95;
+    color: #fff;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.total-score-list li{
+    list-style-type: none;
+    padding: .3rem 0;
+}
+
+.total-score{
+    background-color: black;
+    color: #fff;
+    border-radius: .3rem;
+    padding: .3rem;
+    font-weight: 800;
+}
