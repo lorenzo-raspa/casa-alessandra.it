@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+h1{
+    font-family: "Dancing Script", serif;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+}
+
+navbar{
+    display: flex;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+}
+
+navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+navbar ul a{
+    text-decoration: none;
+    margin: auto .5rem;
+    color: auto;
+    transition: .3s;
+}
+
+navbar ul a:hover{
+    text-decoration: none;
+    margin: auto .5rem;
+    color: #222;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page-not-found-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.page-not-found-box img{
+    width: 10rem;
+}
