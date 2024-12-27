@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+}
+
+navbar{
+    display: flex;
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+}
+
+navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+navbar ul a{
+    text-decoration: none;
+    margin: auto .5rem;
+    color: auto;
+    transition: .3s;
+}
+
+navbar ul a:hover{
+    text-decoration: none;
+    margin: auto .5rem;
+    color: #222;
+    text-decoration: underline;
+}

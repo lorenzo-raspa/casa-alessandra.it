@@ -1,0 +1,12 @@
+.page-not-found-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.page-not-found-box img{
+    width: 10rem;
+}

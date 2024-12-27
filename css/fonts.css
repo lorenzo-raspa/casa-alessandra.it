@@ -1,0 +1,10 @@
+/* Font */
+h1{
+    font-family: "Dancing Script", serif;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+}
