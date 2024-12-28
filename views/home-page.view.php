@@ -6,7 +6,7 @@
     <main>
         <!-- banner-home -->
         <div class="banner-home-page">
-            <img src="<?= IMAGES ?>/giardino-1.jpg" alt="garden">
+            <img src="<?= HOUSE_IMAGES ?>/garden-13.jpg" alt="garden">
         </div>
 
         <!-- AirBnB recensioni -->

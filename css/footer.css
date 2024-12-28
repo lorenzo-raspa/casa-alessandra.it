@@ -18,16 +18,18 @@ footer ul{
     list-style-type: none;
 }
 
+footer ul li{
+    margin: auto 1rem;
+}
+
 footer ul a{
     text-decoration: none;
-    margin: auto .5rem;
     color: auto;
     transition: .3s;
 }
 
 footer ul a:hover{
     text-decoration: none;
-    margin: auto .5rem;
     color: #222;
     text-decoration: underline;
 }

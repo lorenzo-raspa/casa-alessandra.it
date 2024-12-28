@@ -1,0 +1,66 @@
+.section-contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.section-contact div:first-child{
+    display: grid;
+    grid-column: span 2;
+}
+
+.section-contact div:not(:first-child){
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.section-map{
+    width: 100%;
+}
+
+.my-map{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.list-directions{
+    list-style-image: url('../images/rudder-icon.png'); 
+    padding-left: 2rem;
+}
+
+.section-contact ul li{
+    line-height: 1.6;
+}
+
+.list-phones{
+    list-style-image: url('../images/telephone-call-icon.png'); 
+    padding-left: 2rem;
+
+}
+
+.list-phones li:nth-child(3){
+    list-style-image: url('../images/mail-icon.png'); 
+}
+
+.list-public-transport{
+    padding-left: 1.6rem;
+    margin: 1rem 0;
+}
+
+.list-public-transport li:first-child{
+    list-style-image: url('../images/train-icon.png');
+}
+
+.list-airports{
+    padding-left: 2rem;
+    margin: 1rem 0;
+
+}
+
+.list-airports li:first-child{
+    list-style-image: url('../images/airplane-icon.png');
+}
