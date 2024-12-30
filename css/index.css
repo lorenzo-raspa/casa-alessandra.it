@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ysabeau+SC:wght@1..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url("main_settings.css");
 @import url("colors.css");
+@import url("main_settings.css");
 @import url("fonts.css");
 @import url("main_settings.css");
 @import url("header.css");
@@ -12,3 +12,6 @@
 @import url("reviews-section.css");
 @import url("contact.css");
 @import url("gallery.css");
+@import url("gallery-manager.css");
+@import url("messages-box.css");
+@import url("forms.css");

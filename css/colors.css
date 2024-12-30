@@ -1,0 +1,26 @@
+:root{
+    --cards-box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    --link-hover: #222222;
+    --form-input-submit: #f1f1f1;
+    --form-input-submit-hover: #cfcfcf;
+    --form-input-box-shadow: 3px 3px 4px  rgba(0, 0, 0, 0.178);
+    --form-input-border: #e6e6e6;
+
+    /* Gallery */
+    --gallery-container: #ffffff;
+    --lightbox-bg-color: rgba(0, 0, 0, 0.60);
+
+    /* gallery-manager table */
+    --th-bg-color: #cecece;
+    --td-border-color: #eeeeee;
+    --odd-tr-color: #f8f8f8;
+
+    /* Messages colors */
+    --error-message-border-color: #6b0000;
+    --error-message-bg-color: #b90000;
+    --error-message-text-color: #ffffff;
+
+    --success-message-border-color: #004b00;
+    --success-message-bg-color: #007700;
+    --success-message-text-color: #ffffff;
+}

@@ -35,6 +35,17 @@ navbar ul a{
 navbar ul a:hover{
     text-decoration: none;
     margin: auto .5rem;
-    color: #222;
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+#logout-form input[type="submit"]{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin: 0 .3rem;
+}
+
+#logout-form input[type="submit"]:hover{
     text-decoration: underline;
 }

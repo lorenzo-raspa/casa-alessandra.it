@@ -1,0 +1,56 @@
+#upload-images-form, #login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    max-width: 70%;
+    min-height: 60vh;
+    margin: 0 auto;
+}
+
+#logoutform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+form input[type="file"]{
+    cursor: pointer;
+}
+
+form input[type="submit"]{
+    height: 2rem;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    background-color: var(--form-input-submit);
+}
+
+form input[type="submit"]:hover{
+    background: var(--form-input-submit-hover);
+}
+
+form input[type="text"], 
+form input[type="password"]
+{
+    min-height: 2rem;
+    padding-left: .3rem;
+    border-radius: .4rem;
+    box-shadow: var(--form-input-box-shadow);
+    outline: none;
+    border: 1px solid var(--form-input-border);
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+
+

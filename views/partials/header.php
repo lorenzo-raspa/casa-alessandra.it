@@ -12,6 +12,16 @@
             <li><a href="/">Home Page</a></li>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/contacts">Contacts</a></li>
+            <?php if(!$_SESSION["is_logged_in"]): ?>
+                <li><a href="/login">Login</a></li>
+            <?php else: ?>
+                <li>Ciao <?= $_SESSION["username"]?>!</li>
+                <li>
+                    <form id="logout-form" action="/logout" method="post">
+                        <input type="submit" value="Logout">
+                    </form>
+                </li>
+            <?php endif; ?>
         </ul>
     </navbar>
     

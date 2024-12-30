@@ -1,0 +1,26 @@
+#gallery-manager-table{
+    width: 60%;
+    height: auto;
+}
+
+#gallery-manager-table thead th{
+    background-color: var(--th-bg-color);
+}
+
+#gallery-manager-table td{
+    border: 1px solid var(--td-border-color);
+    text-align: center;
+}
+
+#gallery-manager-table tr:nth-child(odd){
+    background-color: var(--odd-tr-color);
+}
+
+.table-image{
+    width: 8rem;
+}
+
+#gallery-manager-table form input[type="submit"]{
+    cursor: pointer;
+    padding: .3rem;
+}

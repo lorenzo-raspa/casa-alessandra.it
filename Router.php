@@ -3,16 +3,18 @@
 class Router{
 
     # variabili di istanza
-    public string $uri;
-    public string $method;
-    public array $routes;
+    private string $uri;
+    private string $method;
+    private array $routes;
+    private bool $is_logged_in;
 
     # costruttore
-    function __construct(string $uri, string $method, array $routes)
+    function __construct(string $uri, string $method, array $routes, bool $user_is_logged_in)
     {
         $this->uri = $uri;
         $this->method = $method;
         $this->routes = $routes;
+        $this->is_logged_in = $user_is_logged_in;
     }
 
     # funzione di routing

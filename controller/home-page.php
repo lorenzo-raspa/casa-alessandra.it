@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 # titolo della pagina
 $pageTitle = "Home Page";
