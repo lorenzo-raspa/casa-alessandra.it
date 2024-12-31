@@ -21,6 +21,8 @@
                         <input type="submit" value="Logout">
                     </form>
                 </li>
+                <li><a href="/images-manager">Images manager</a></li>
+                <li><a href="/upload">upload image</a></li>
             <?php endif; ?>
         </ul>
     </navbar>
