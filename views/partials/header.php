@@ -22,14 +22,14 @@
             <?php if(!$_SESSION["is_logged_in"]): ?>
                 <li><a href="/login">Login</a></li>
             <?php else: ?>
+                <li><a href="/images-manager">Images manager</a></li>
+                <li><a href="/upload">upload image</a></li>
                 <li>Ciao <?= $_SESSION["username"]?>!</li>
                 <li>
                     <form id="logout-form" action="/logout" method="post">
                         <input type="submit" value="Logout">
                     </form>
                 </li>
-                <li><a href="/images-manager">Images manager</a></li>
-                <li><a href="/upload">upload image</a></li>
             <?php endif; ?>
         </ul>
     </navbar>

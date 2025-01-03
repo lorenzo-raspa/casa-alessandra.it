@@ -64,7 +64,7 @@
 /* Responsive Gallery Manager */
 @media only screen and (max-width:480px){
     #gallery-manager-table{
-        width: 96%;
+        max-width: 96%;
         height: auto;
     }
     
