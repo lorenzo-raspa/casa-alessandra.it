@@ -4,12 +4,17 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin: 0 auto;
 }
 
 .title-box{
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
+}
+
+.toggle-navbar-box{
+    display: none;
 }
 
 navbar{
@@ -49,3 +54,4 @@ navbar ul a:hover{
 #logout-form input[type="submit"]:hover{
     text-decoration: underline;
 }
+

@@ -2,6 +2,7 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    transition: .5s;
 }
 
 .error-message-box{
@@ -15,6 +16,7 @@
     border: 1px solid var(--error-message-border-color);
     background-color: var(--error-message-bg-color);
     color: var(--error-message-text-color);
+    padding: 1rem;
 }
 
 .success-message-box{
@@ -28,4 +30,5 @@
     border: 1px solid var(--success-message-border-color);
     background-color: var(--success-message-bg-color);
     color: var(--success-message-text-color);
+    padding: 1rem;
 }

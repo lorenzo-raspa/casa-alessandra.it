@@ -48,6 +48,7 @@
 
     <!-- footer -->
     <?php include PARTIALS . "/footer.php" ?>
+
 </body>
 
 </html>

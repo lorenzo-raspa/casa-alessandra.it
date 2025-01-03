@@ -5,6 +5,13 @@
         <h1>Casa Alessandra</h1>
         <h2><?= $pageTitle ?></h1>
     </div>
+
+    <div class="toggle-navbar-box">
+        <!-- <img src="<?= IMAGES ?>/close-icon.png" alt="close-icon" width="24" height="24"> -->
+         <span class="toggle-menu-span"></span>
+         <span class="toggle-menu-span"></span>
+         <span class="toggle-menu-span"></span>
+    </div>
     
     <!-- Navbar links -->
     <navbar>

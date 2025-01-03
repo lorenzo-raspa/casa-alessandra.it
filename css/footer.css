@@ -1,21 +1,22 @@
 
-
 footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     min-height: 20vh;
     font-family: "Ysabeau SC", serif;
     font-optical-sizing: auto;
-    padding-right: 2rem;
 }
 
 footer ul{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
+    width: 100%;
 }
 
 footer ul li{
@@ -33,3 +34,4 @@ footer ul a:hover{
     color: var(--link-hover);
     text-decoration: underline;
 }
+
